@@ -55,7 +55,8 @@ var loadImages = function(){
 
   client.sendRequest("GET", "/", "", "", {}, false,
   function(data, type) {
-    console.log(data);
+    console.log(data); 
+    
     //Also update the html element?
     //$("#imageList").html("Updated Element");
   },
