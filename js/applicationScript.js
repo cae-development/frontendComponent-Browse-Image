@@ -46,6 +46,18 @@ var init = function() {
 
 }
 
+// loadImages
+var loadImages = function(){
+
+//start variable declaration
+
+//end variable declaration
+
+
+  //Additional own javascript
+
+}
+
 
 $(document).ready(function() {
   init();
