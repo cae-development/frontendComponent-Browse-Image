@@ -60,7 +60,7 @@ var loadImages = function(){
         return $("<img src='"+image.url+"'/>"); 
     });
     //Also update the html element?
-    $("#imageList").html("Updated Element");
+    $("#imageList").html(images);
   },
   function(error) {
     console.log(error);
