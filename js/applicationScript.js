@@ -96,7 +96,7 @@ var loadImages = function(){
     $("#imageList").html(error.message);
   });
   
-  $("#imageList").html("Updated Element");
+  //$("#imageList").html("Updated Element");
   //Additional own javascript
 
 }
