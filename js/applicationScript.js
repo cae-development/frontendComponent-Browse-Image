@@ -55,7 +55,7 @@ var deleteImage = function(imgId){
 
    var image = null; 
     image = JSON.stringify({ 
-        id : imgId 
+        id : imgId.toString() 
     });
   client.sendRequest("DELETE", "images", image, "application/json", {}, false,
   function(data, type) {
