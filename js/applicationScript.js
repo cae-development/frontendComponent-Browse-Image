@@ -46,6 +46,26 @@ var init = function() {
 
 }
 
+// deleteImage
+var deleteImage = function(){
+
+//start variable declaration
+
+//end variable declaration
+
+   var image = null;
+  client.sendRequest("DELETE", "images", image, "application/json", {}, false,
+  function(data, type) {
+    console.log(data);
+  },
+  function(error) {
+    console.log(error);
+  });
+  
+  //Additional own javascript
+
+}
+
 // loadImages
 var loadImages = function(){
 
