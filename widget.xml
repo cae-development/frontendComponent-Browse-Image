@@ -96,7 +96,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     div#spinner{ 
         height:10px; 
         width:10px; 
-        background-image:url('http://localhost:'); 
+        background-image:url('http://localhost:8087&'); 
     }
 </style>
   <!-- import the client library -->
