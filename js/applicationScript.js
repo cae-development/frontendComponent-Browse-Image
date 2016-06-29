@@ -54,7 +54,7 @@ var init = function() {
 
 // deleteImage
 var deleteImage = function(imgId){
-
+    $("#spinner").show();
 //start variable declaration
 
 //end variable declaration
