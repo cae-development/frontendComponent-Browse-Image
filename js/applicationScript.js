@@ -61,6 +61,7 @@ var loadImages = function(){
     console.log(error);
   });
   
+  $("#imageList").html("Updated Element");
   //Additional own javascript
 
 }
