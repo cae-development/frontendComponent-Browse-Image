@@ -116,6 +116,9 @@ var openImage = function(image){
 //end variable declaration
 
 
+  var intentData = "initialized";
+  client.sendIntent("openImage",intentData,true);
+
   //Additional own javascript
 
 }
