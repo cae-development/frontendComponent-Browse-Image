@@ -98,7 +98,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     }
     .spinner {
        position: absolute;
-       left: 50%;
+       left: calc( 50% - 60px/2 );
        top: 50%;
        height:60px;
        width:60px;
