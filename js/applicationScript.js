@@ -87,6 +87,7 @@ var loadImages = function(){
         }); 
         return element;
     });
+    $("#spinner").hide(); 
     //Also update the html element?
     $("#imageList").html(images);
   },
