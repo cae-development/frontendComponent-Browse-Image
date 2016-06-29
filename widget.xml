@@ -89,7 +89,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         width:100%; 
         height:100px; 
     } 
-    div.img opened{ 
+    div.img.opened{ 
         background-color:#000000; 
     }  
     div.img img{ 
