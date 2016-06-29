@@ -131,7 +131,7 @@ var loadFile = function(imageJsonString){
 //start variable declaration
     var imageJson = JSON.parse(imageJsonString); 
 //end variable declaration
-
+    
 
   //Additional own javascript
 
