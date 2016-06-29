@@ -37,7 +37,9 @@ var init = function() {
   var iwcCallback = function(intent) {
     // define your reactions on incoming iwc events here 
     console.log(intent);
-
+    if (intent.action == "openImage") {
+       loadFile(intent.data);
+    }
   };
 
   client = new Las2peerWidgetLibrary("http://localhost:8086", iwcCallback);
@@ -119,6 +121,18 @@ var openImage = function(image){
   var intentData = "initialized"; 
   intentData = JSON.stringify(image);
   client.sendIntent("openImage",intentData,false);
+
+  //Additional own javascript
+
+}
+
+// loadFile
+var loadFile = function(imageJsonString){
+
+//start variable declaration
+
+//end variable declaration
+
 
   //Additional own javascript
 
