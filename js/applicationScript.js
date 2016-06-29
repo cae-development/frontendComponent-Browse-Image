@@ -76,7 +76,7 @@ var loadImages = function(){
 //start variable declaration
 
 //end variable declaration
- 
+  $("#spinner").show(); 
 
   client.sendRequest("GET", "images/", "", "", {}, false,
   function(data, type) {
