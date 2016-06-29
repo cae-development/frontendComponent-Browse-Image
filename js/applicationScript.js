@@ -88,7 +88,7 @@ var loadImages = function(){
   client.sendRequest("GET", "images/", "", "", {}, false,
   function(data, type) {
     var images = data.images.map( function(image){ 
-        var element = $("<div class='img' ><img src='"+image.url+"'/></div>");  
+        var element = $("<div class='img' id='" + image .id + "-image' ><img src='"+image.url+"'/></div>");  
         element.on("click",function(){  
             openImage(image);
         }); 
