@@ -92,7 +92,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     div.img img{ 
         max-height:100%; 
         max-width:100%; 
-    } 
+    }  
+    #spinner{ 
+        display:none; 
+    }
     .spinner {
        position: absolute;
        left: 50%;
