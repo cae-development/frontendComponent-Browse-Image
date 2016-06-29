@@ -60,7 +60,7 @@ var deleteImage = function(imgId){
   client.sendRequest("DELETE", "images", image, "application/json", {}, false,
   function(data, type) {
     console.log(data); 
-    
+    loadImages();
   },
   function(error) {
     console.log(error);
