@@ -131,7 +131,8 @@ var openImage = function(image){
 var loadFile = function(imageJsonString){
 
 //start variable declaration
-
+    var imageJson = JSON.parse(imageJsonString); 
+    alert(imageJson.url);
 //end variable declaration
 
 
