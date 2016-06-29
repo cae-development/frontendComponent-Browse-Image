@@ -144,8 +144,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
    <div id='spinner' class="spinner" > </div>
    <div id='imageList' > </div>
-   <button id='reload' class="btn btn-default">reload</button>
    <br id='br1' >
+   <button id='reload' class="btn btn-default">reload</button>
  
   </div>
 
