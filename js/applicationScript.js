@@ -53,7 +53,14 @@ var loadImages = function(){
 
 //end variable declaration
 
-
+  client.sendRequest("GET", "", "", "", {}, false,
+  function(data, type) {
+    console.log(data);
+  },
+  function(error) {
+    console.log(error);
+  });
+  
   //Additional own javascript
 
 }
