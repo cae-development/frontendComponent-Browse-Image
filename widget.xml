@@ -84,6 +84,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <style type="text/css"> 
     div.img { 
         max-width:120px; 
+        max-height:100px; 
+         
     } 
 </style>
   <!-- import the client library -->
