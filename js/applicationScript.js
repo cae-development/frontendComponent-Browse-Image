@@ -138,7 +138,6 @@ var loadFile = function(imageJsonString){
         }else{ 
             image.removeClass("opened"); 
         }
-        return image;
     } );
 
   //Additional own javascript
