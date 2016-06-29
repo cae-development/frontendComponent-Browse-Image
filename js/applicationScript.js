@@ -42,7 +42,7 @@ var init = function() {
 
   client = new Las2peerWidgetLibrary("http://localhost:8086", iwcCallback);
 
-  $('#reload').on('click', function() {
+  $('#Reload').on('click', function() {
     //start parameter initiation
 
     //end parameter initiation
