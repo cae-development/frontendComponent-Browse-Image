@@ -81,7 +81,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <script type="text/javascript" src="http://cae-development.github.io/frontendComponent-Browse-Image/js/lib/iwc.js"></script>
   <!-- additional widget specific imports (put your own imports here as well) -->
 
-
+<style type="text/css"> 
+    div.img { 
+        width:100px; 
+    } 
+</style>
   <!-- import the client library -->
   <script type="text/javascript" src="http://cae-development.github.io/frontendComponent-Browse-Image/js/lib/las2peerWidgetLibrary.js"></script>
   <!-- import application script -->
