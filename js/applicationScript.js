@@ -65,7 +65,7 @@ var loadImages = function(){
   function(error) {
     console.log(error);
     //Also update the html element?
-    $("#imageList").html(error.);
+    $("#imageList").html(error.message);
   });
   
   $("#imageList").html("Updated Element");
