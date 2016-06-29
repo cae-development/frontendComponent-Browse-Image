@@ -117,6 +117,7 @@ var openImage = function(image){
 
 
   var intentData = "initialized"; 
+  intentData = JSON.stringify(image);
   client.sendIntent("loadFile",intentData);
 
   //Additional own javascript
