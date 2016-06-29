@@ -56,9 +56,13 @@ var loadImages = function(){
   client.sendRequest("GET", "/", "", "", {}, false,
   function(data, type) {
     console.log(data);
+    //Also update the html element?
+    //$("#imageList").html("Updated Element");
   },
   function(error) {
     console.log(error);
+    //Also update the html element?
+    //$("#imageList").html("Updated Element");
   });
   
   $("#imageList").html("Updated Element");
