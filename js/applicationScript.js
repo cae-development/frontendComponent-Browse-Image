@@ -76,6 +76,7 @@ var loadImages = function(){
 //start variable declaration
 
 //end variable declaration
+ 
 
   client.sendRequest("GET", "images/", "", "", {}, false,
   function(data, type) {
