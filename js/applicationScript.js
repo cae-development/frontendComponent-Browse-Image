@@ -98,7 +98,6 @@ var loadImages = function(){
   });
   
   //$("#imageList").html("Updated Element");
-  $("#spinner").show(); 
   //Additional own javascript
 
 }
