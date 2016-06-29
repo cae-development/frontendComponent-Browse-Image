@@ -81,7 +81,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <script type="text/javascript" src="http://cae-development.github.io/frontendComponent-Browse-Image/js/lib/iwc.js"></script>
   <!-- additional widget specific imports (put your own imports here as well) -->
 
-<style type="text/css"> 
+<style type="text/css">  
+    div.imageList nth-child(even) {
+    background-color: #000000;
+}
     div.img { 
         max-width:120px; 
         max-height:100px; 
