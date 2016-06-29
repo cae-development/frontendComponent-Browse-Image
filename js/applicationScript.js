@@ -131,7 +131,7 @@ var loadFile = function(imageJsonString){
 //start variable declaration
     var imageJson = JSON.parse(imageJsonString); 
 //end variable declaration
-    var imgages = $("#imageList").children();
+    var images = $("#imageList").children();
 
   //Additional own javascript
 
