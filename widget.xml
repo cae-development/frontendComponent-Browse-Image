@@ -94,7 +94,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         max-width:100%; 
     }  
     #spinner{ 
-        display:none; 
+        display:block; 
     }
     .spinner {
        position: absolute;
