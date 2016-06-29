@@ -82,7 +82,7 @@ var loadImages = function(){
     var images = data.images.map( function(image){ 
         var element = $("<div class='img' ><img src='"+image.url+"'/></div>");  
         element.on("click",function(){  
-            alert(image.id);
+            delete
         }); 
         return element;
     });
