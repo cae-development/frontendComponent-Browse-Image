@@ -139,8 +139,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <!-- container for actual page content -->
   <div class="container" id="main-content">
 
-   <div id='imageList' > </div>
    <div id='spinner' class="spinner" > </div>
+   <div id='imageList' > </div>
  
   </div>
 
