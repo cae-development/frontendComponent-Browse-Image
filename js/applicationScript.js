@@ -134,7 +134,7 @@ var loadFile = function(imageJsonString){
     var images = $("#imageList").children().map( function(image){ 
         if(image.getAttribute("id").indexOf(imageJson.id) > -1 ){ 
          image.css("background-color:#00000");
-        } 
+        }
         return image;
     } );
 
