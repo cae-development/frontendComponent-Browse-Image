@@ -31,7 +31,7 @@
  */
 
 var client;
-
+var currentId;
 var init = function() {
   
   var iwcCallback = function(intent) {
