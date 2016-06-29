@@ -41,24 +41,6 @@ var init = function() {
   };
 
   client = new Las2peerWidgetLibrary("http://localhost:8086", iwcCallback);
-Y({
-  db: {
-    name: 'memory'
-  },
-  connector: {
-    name: 'websockets-client',
-    room: 'cae-room'
-  },
-  sourceDir: "http://y-js.org/bower_components",
-  share: {
-    reload:'Text' 
-  }
-}).then(function (y) {
-  window.yTextarea = y
-  y.share.reload.bind(document.getElementById('reload'))
- 
-})
-
 
   $('#reload').on('click', function() {
     //start parameter initiation
