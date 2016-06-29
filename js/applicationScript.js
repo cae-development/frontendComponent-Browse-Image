@@ -57,7 +57,7 @@ var loadImages = function(){
   function(data, type) {
     console.log(data); 
     var images = data.images.map( function(image){ 
-        return $("<img src='"+image.url+"'/>"); 
+        return $("<div class=''><img src='"+image.url+"'/>"); 
     });
     //Also update the html element?
     $("#imageList").html(images);
