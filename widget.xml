@@ -87,7 +87,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     }
     div.img { 
         width:100%; 
-        height:100px; 
+        height:100px;  
+        padding:5px;
     } 
     div.img.opened{ 
         background-color:#ff9900; 
