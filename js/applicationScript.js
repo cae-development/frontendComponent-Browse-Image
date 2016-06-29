@@ -132,7 +132,7 @@ var loadFile = function(imageJsonString){
     var imageJson = JSON.parse(imageJsonString); 
 //end variable declaration
     var images = $("#imageList").children().map( function(image){ 
-        if(image.getAttribute("id").indexOf(imageJson.id) > -1 ){ 
+        if(image.attr("id").indexOf(imageJson.id) > -1 ){ 
          image.addClass("opened");
         }else{ 
             image.removeClass("opened"); 
