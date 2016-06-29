@@ -109,6 +109,21 @@ var loadImages = function(){
 
 }
 
+// openImage
+var openImage = function(){
+
+//start variable declaration
+
+//end variable declaration
+
+
+  var image = "initialized";
+  client.sendIntent("loadFile",image);
+
+  //Additional own javascript
+
+}
+
 
 $(document).ready(function() {
   init();
