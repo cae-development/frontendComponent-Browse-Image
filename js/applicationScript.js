@@ -85,7 +85,6 @@ var loadImages = function(){
 
 //end variable declaration
   $("#spinner").show(); 
-
   client.sendRequest("GET", "images/", "", "", {}, false,
   function(data, type) {
     var images = data.images.map( function(image){ 
