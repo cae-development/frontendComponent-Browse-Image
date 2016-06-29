@@ -47,7 +47,7 @@ var init = function() {
 }
 
 // deleteImage
-var deleteImage = function(){
+var deleteImage = function(imgId){
 
 //start variable declaration
 
