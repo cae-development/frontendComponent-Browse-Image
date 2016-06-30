@@ -95,7 +95,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         background-color:#cbff00; 
     }
     div.img.opened{ 
-        background-color:#cbff00; 
+        background-color:#82A300; 
     }  
     div.img img{ 
         max-height:100%; 
