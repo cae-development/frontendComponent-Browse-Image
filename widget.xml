@@ -89,8 +89,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         width:100%; 
         height:100px;  
         padding:5px; 
-        cursor:pointer
-    } 
+        cursor:pointer;
+    }  
+    div.img:hover{ 
+        background-color:#cbff00; 
+    }
     div.img.opened{ 
         background-color:#cbff00; 
     }  
