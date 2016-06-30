@@ -92,10 +92,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         cursor:pointer;
     }  
     div.img:hover{ 
-        background-color:#cbff00; 
+        background-color:#E4FF7A; 
     }
     div.img.opened{ 
-        background-color:#82A300; 
+        background-color:#cbff00; 
     }  
     div.img img{ 
         max-height:100%; 
