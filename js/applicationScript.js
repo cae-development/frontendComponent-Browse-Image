@@ -44,12 +44,6 @@ var init = function() {
 
   client = new Las2peerWidgetLibrary("http://localhost:8086", iwcCallback);
 
-  $('#add').on('click', function() {
-    //start parameter initiation
-
-    //end parameter initiation
-    addUrl();
-  })
   $('#Reload').on('click', function() {
     //start parameter initiation
 
