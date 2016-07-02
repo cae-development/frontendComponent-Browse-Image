@@ -68,7 +68,7 @@ var addUrl = function(){
 //end variable declaration
 
    var imageJson = null; 
-  imageJson.put("url",$("#"));
+  imageJson.put("url",$("#url").val());
   client.sendRequest("PUT", "images/", imageJson, "application/json", {}, false,
   function(data, type) {
     console.log(data);
