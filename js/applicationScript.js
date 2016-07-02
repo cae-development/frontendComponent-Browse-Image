@@ -137,12 +137,12 @@ var highlightImage = function(imageJsonString){
     var imageJson = JSON.parse(imageJsonString); 
 //end variable declaration
     var images = $("#imageList").children().each( function(){   
-        var image = $(this); 
-        if(image.attr("id").indexOf(imageJson.id) > -1 ){ 
-         image.addClass("opened");
-        }else{ 
-            image.removeClass("opened"); 
-        }
+     var image = $(this); 
+     if(image.attr("id").indexOf(imageJson.id) > -1 ){ 
+      image.addClass("opened");
+     }else{ 
+      image.removeClass("opened"); 
+     }
     } );
 
   //Additional own javascript
