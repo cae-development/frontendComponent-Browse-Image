@@ -143,7 +143,7 @@ var highlightImage = function(imageJsonString){
      }else{ 
       image.removeClass("opened"); 
      }
-    } );
+    });
 
   //Additional own javascript
 
