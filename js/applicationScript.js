@@ -137,7 +137,6 @@ var highlightImage = function(imageJsonString){
     var imageJson = JSON.parse(imageJsonString); 
 //end variable declaration
     var images = $("#imageList").children().each( function(){   
-        console.log(image);
         if(image.attr("id").indexOf(imageJson.id) > -1 ){ 
          image.addClass("opened");
         }else{ 
