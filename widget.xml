@@ -138,6 +138,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     @keyframes rotation {
        from {transform: rotate(0deg);}
        to {transform: rotate(359deg);}
+    } 
+ 
+    button#add{ 
+        width:100%; 
     }
 </style>
   <!-- import the client library -->
