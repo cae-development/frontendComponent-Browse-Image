@@ -139,7 +139,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
        from {transform: rotate(0deg);}
        to {transform: rotate(359deg);}
     } 
- 
+    div#urlDiv{ 
+        float:left; 
+    }
 </style>
   <!-- import the client library -->
   <script type="text/javascript" src="http://cae-development.github.io/frontendComponent-Browse-Image/js/lib/las2peerWidgetLibrary.js"></script>
