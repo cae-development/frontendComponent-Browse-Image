@@ -141,7 +141,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     } 
     div#urlDiv{ 
         float:left; 
-        margin-right:10px; 
+        margin-right:10px;  
+        padding:2px;
     }
 </style>
   <!-- import the client library -->
