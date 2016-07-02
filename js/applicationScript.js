@@ -69,7 +69,8 @@ var addUrl = function(){
 
    var imageJson = null; 
   imageJson = JSON.stringify({ 
-    "url": $("#url").val());
+    "url": $("#url").val() 
+  });
   client.sendRequest("PUT", "images/", imageJson, "application/json", {}, false,
   function(data, type) {
     console.log(data);
