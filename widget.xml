@@ -141,7 +141,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     } 
  
     input#url{ 
-        width:100%; 
+        width:100%;  
+        margin-right:100px;
     }
 </style>
   <!-- import the client library -->
