@@ -140,7 +140,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
        to {transform: rotate(359deg);}
     } 
  
-    button#add{ 
+    input#url{ 
         width:100%; 
     }
 </style>
