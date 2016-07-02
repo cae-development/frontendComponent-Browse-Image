@@ -54,30 +54,6 @@ var init = function() {
 
 }
 
-// deleteImage
-var deleteImage = function(imgId){
-    $("#spinner").show();
-//start variable declaration
-
-//end variable declaration
-
-   var image = null; 
-    image = JSON.stringify({ 
-        id : imgId.toString() 
-    });
-  client.sendRequest("DELETE", "images", image, "application/json", {}, false,
-  function(data, type) {
-    console.log(data); 
-    loadImages();
-  },
-  function(error) {
-    console.log(error);
-  });
-  
-  //Additional own javascript
-
-}
-
 // loadImages
 var loadImages = function(){
 
