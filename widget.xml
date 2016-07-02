@@ -160,9 +160,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    <button id='Reload' class="btn btn-default">Reload</button>
    <div id='urlDiv' >Url: </div>
    <input id='url' > </input>
-   <button id='add' class="btn btn-default">Add Image</button>
    <div id='imageList' > </div>
    <br id='br1' >
+   <button id='add' class="btn btn-default">Add Image</button>
  
   </div>
 
