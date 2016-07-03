@@ -89,7 +89,6 @@ var loadImages = function(){
 //start variable declaration
 
 //end variable declaration
-  $("#spinner").show(); 
   client.sendRequest("GET", "images/", "", "", {}, false,
   function(data, type) {
     var images = data.images.map( function(image){ 
@@ -99,7 +98,6 @@ var loadImages = function(){
         }); 
         return element;
     });
-    $("#spinner").hide(); 
     //Also update the html element?
     $("#imageList").html(images);
   },
