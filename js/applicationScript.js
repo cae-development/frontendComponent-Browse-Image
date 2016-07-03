@@ -122,7 +122,7 @@ var openImage = function(){
 //end variable declaration
 
 
-  //Additional own javascript
+//Additional own javascript
 
 }
 
