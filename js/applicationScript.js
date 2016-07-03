@@ -118,7 +118,6 @@ var loadImages = function(){
 var openImage = function(){
 
 //start variable declaration
- 
 //end variable declaration
 
 
