@@ -140,7 +140,7 @@ var highlightImage = function(imageJsonString){
      }
     });
 
-  //Additional own javascript
+//Additional own javascript
 
 }
 
