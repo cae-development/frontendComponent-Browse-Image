@@ -95,7 +95,7 @@ var loadImages = function(){
     var images = data.images.map( function(image){ 
         var element = $("<div class='img' id='" + image .id + "-image' ><img src='"+image.url+"'/></div>");  
         element.on("click",function(){  
-            openImage(image);
+            // call the opem image function
         }); 
         return element;
     });
