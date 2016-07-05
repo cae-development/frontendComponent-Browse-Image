@@ -37,9 +37,7 @@ var init = function() {
   var iwcCallback = function(intent) {
     // define your reactions on incoming iwc events here 
     console.log(intent);
-    if (intent.action == "openImage") { 
-       highlightImage(intent.data);
-    }
+
   };
 
   client = new Las2peerWidgetLibrary("http://localhost:8086", iwcCallback);
@@ -111,30 +109,14 @@ var loadImages = function(){
 }
 
 // openImage
-var openImage = function(){
+var openImage = function(image){
 
 //start variable declaration
 //end variable declaration
 
 
-//Additional own javascript
-
-}
-
-// highlightImage
-var highlightImage = function(imageJsonString){
-
-//start variable declaration
-    var imageJson = JSON.parse(imageJsonString); 
-//end variable declaration
-    var images = $("#imageList").children().each( function(){   
-     var image = $(this); 
-     if(image.attr("id").indexOf(imageJson.id) > -1 ){ 
-      image.addClass("opened");
-     }else{ 
-      image.removeClass("opened"); 
-     }
-    });
+  var intentData = "initialized";
+  client.sendIntent("openImage",intentData,true);
 
 //Additional own javascript
 

@@ -2,7 +2,7 @@
 <Module>
   <ModulePrefs title="Browse Image WIdget" description="Shows images from Image Service"
     author="Thomas" author_email="thomas.winkler1@rwth-aachen.de"
-    width="500" height="300">
+    width="500" height="500">
 
     <Require feature="opensocial-0.8"></Require>
     <Require feature="openapp"></Require>
