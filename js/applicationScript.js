@@ -112,15 +112,11 @@ element.on("click", function(){
 }
 
 // openImage
-var openImage = function(image){
+var openImage = function(){
 
 //start variable declaration
 //end variable declaration
 
-
-  var intentContent = "initialized"; 
-intentContent = JSON.stringify(image);
-  client.sendIntent("openImage",intentContent,true);
 
 //Additional own javascript 
 
