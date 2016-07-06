@@ -40,7 +40,7 @@ var init = function() {
 
   };
 
-  client = new Las2peerWidgetLibrary("http://134.172.172.116:8086", iwcCallback);
+  client = new Las2peerWidgetLibrary("http://134.61.172.116:8086", iwcCallback);
 
   $('#add').on('click', function() {
     //start parameter initiation
@@ -109,15 +109,11 @@ var loadImages = function(){
 }
 
 // openImage
-var openImage = function(image){
+var openImage = function(){
 
 //start variable declaration
 //end variable declaration
 
-
-  var intentData = "initialized"; 
-  intentData = JSON.stringify(image);
-  client.sendIntent("openImage",intentData,true);
 
 //Additional own javascript
 
