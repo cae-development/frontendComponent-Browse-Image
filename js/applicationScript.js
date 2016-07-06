@@ -118,7 +118,8 @@ var openImage = function(image){
   var intentContent = "initialized";
   client.sendIntent("openImage",intentContent,true);
 
-//Additional own javascript
+//Additional own javascript 
+
 
 }
 
