@@ -91,7 +91,8 @@ var loadImages = function(){
   function(data, type) {
     var images = data.images.map( function(image){ 
         var element = $("<div class='img' id='" + image .id + "-image' ><img src='"+image.url+"'/></div>");  
-        // add the event to the element  
+        // add the event to the element   
+element.on()
         return element;
     });
     //Also update the html element?
