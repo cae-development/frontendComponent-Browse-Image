@@ -64,7 +64,9 @@ var addUrl = function(){
 //start variable declaration
 
 //end variable declaration
-
+   if( $("#url").val().length <=0){ 
+    alert("You cannot add empty urls");
+    }
    var imageJson = null; 
   imageJson = JSON.stringify({ 
     "url": $("#url").val() 
