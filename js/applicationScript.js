@@ -120,7 +120,6 @@ intentContent = JSON.stringify(image);
   client.sendIntent("openImage",intentContent,true);
 
 //Additional own javascript 
-intentData = JSON.s
 
 }
 
