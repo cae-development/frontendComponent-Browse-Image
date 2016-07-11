@@ -115,9 +115,10 @@ var openImage = function(image){
 
 //start variable declaration
 //end variable declaration
-intentData = JSON.stringify(image);
 
-  var intentData = "initialized";
+
+  var intentData = "initialized"; 
+    intentData = JSON.stringify
   client.sendIntent("openImage",intentData,true);
 
 //Additional own javascript 
