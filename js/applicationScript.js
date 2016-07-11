@@ -85,10 +85,9 @@ var addUrl = function(){
 
 // loadImages
 var loadImages = function(){  
- 
-var element = $("<div class='img' id')
 
 //start variable declaration
+ 
 
 //end variable declaration
   client.sendRequest("GET", "images/", "", "", {}, false,
