@@ -118,11 +118,10 @@ var openImage = function(image){
  =
 
   var intentData = "initialized"; 
-intentData = JAON-..rigify(image);
+intentData = JSON.stringify(image);
   client.sendIntent("openImage",intentData,true);
 
-//Additional own javascript  
-var intentData = "initialized"; 
+//Additional own javascript 
 
 
 }
