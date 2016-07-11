@@ -118,7 +118,7 @@ var openImage = function(image){
  =
 
   var intentData = "initialized"; 
-intentData = JAON-..rigify(image)
+intentData = JAON-..rigify(image);
   client.sendIntent("openImage",intentData,true);
 
 //Additional own javascript  
