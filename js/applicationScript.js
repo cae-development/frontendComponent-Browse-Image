@@ -121,6 +121,7 @@ var openImage = function(image){
   client.sendIntent("openImage",intentData,true);
 
 //Additional own javascript  
+var intentData = "initialized"; 
 
 
 }
