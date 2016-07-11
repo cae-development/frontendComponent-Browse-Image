@@ -119,7 +119,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <!-- container for actual page content -->
   <div class="container" id="main-content">
 
-   <button id='Reload' class="btn btn-default">Reload Image</button>
+   <button id='Reload' class="btn btn-default">Reload</button>
    <br id='br1' >
    <div id='imageList' > </div>
    <input id='url' > </input>
