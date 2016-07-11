@@ -119,7 +119,6 @@ var openImage = function(){
 
 //Additional own javascript 
 
-
 }
 
 
