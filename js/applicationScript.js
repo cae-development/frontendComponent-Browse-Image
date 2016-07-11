@@ -117,8 +117,8 @@ var openImage = function(image){
 //end variable declaration
 intentData = JSON.stringify(image);
 
-  var CanvasWidget = "initialized";
-  client.sendIntent("openImage",CanvasWidget,true);
+  var intentData = "initialized";
+  client.sendIntent("openImage",intentData,true);
 
 //Additional own javascript 
 
