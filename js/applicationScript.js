@@ -86,7 +86,6 @@ var addUrl = function(){
 // loadImages
 var loadImages = function(){  
  
-}
 //start variable declaration
   
 var element = $("<div class='img' id')
