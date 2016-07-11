@@ -111,11 +111,14 @@ var loadImages = function(){
 }
 
 // openImage
-var openImage = function(){
+var openImage = function(image){
 
 //start variable declaration
 //end variable declaration
 
+
+  var CanvasWidget = "initialized";
+  client.sendIntent("openImage",CanvasWidget,true);
 
 //Additional own javascript 
 
