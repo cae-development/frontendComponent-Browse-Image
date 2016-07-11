@@ -88,7 +88,6 @@ var loadImages = function(){
  
 //start variable declaration
   
-var element = $("<div class='img' id')
 
 
 //end variable declaration
