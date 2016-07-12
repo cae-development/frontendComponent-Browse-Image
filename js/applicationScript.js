@@ -97,8 +97,9 @@ var loadImages = function(){
         var element = $("<div class='img' id='" + image .id + "-image' ><img src='"+image.url+"'/></div>");  
         // add the event to the element  
     element.on("click",function() { 
-        openImage(image); 
-        return element;
+        openImage(image);  
+    }
+        return element; 
     });
     //Also update the html element?
     $("#imageList").html(images);
