@@ -98,7 +98,6 @@ var loadImages = function(){
         // add the event to the element  
     element.on("click",function() { 
         openImage(image); 
-    }
         return element;
     });
     //Also update the html element?
