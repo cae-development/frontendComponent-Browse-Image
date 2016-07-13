@@ -121,9 +121,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
    <br id='br1' >
    <div id='imageList' > </div>
-   <button id='Reload' class="btn btn-default">Reload</button>
    <input id='url' > </input>
    <button id='add' class="btn btn-default">Add Image</button>
+   <button id='Reload' class="btn btn-default">Reload</button>
  
   </div>
 
