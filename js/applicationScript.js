@@ -95,7 +95,8 @@ var loadImages = function(){
   function(data, type) {
     var images = data.images.map( function(image){ 
         var element = $("<div class='img' id='" + image .id + "-image' ><img src='"+image.url+"'/></div>");  
-        //add on click event here
+        //add on click event here 
+        element.on("click", function() {})
         return element; 
     });
     //Also update the html element?
@@ -118,7 +119,8 @@ var openImage = function(){
 //end variable declaration
 
 
-  var intentData = "initialized";
+  var intentData = "initialized"; 
+  intentData = JSON.stringify(image);
   client.sendIntent("openImage",intentData,true);
 
 //Additional own javascript  
