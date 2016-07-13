@@ -85,7 +85,7 @@ var addUrl = function(){
 
 // loadImages
 var loadImages = function(){  
- say jey jey jey!
+
 //start variable declaration
 
 //end variable declaration
