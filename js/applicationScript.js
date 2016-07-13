@@ -93,8 +93,8 @@ var loadImages = function(){
   function(data, type) {
     var images = data.images.map( function(image){ 
         var element = $("<div class='img' id='" + image .id + "-image' ><img src='"+image.url+"'/></div>");  
-         element.on(=) 
-    })
+         element.on() 
+    });
         return element; 
     });
     //Also update the html element?
