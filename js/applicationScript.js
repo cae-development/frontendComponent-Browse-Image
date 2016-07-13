@@ -112,7 +112,8 @@ var loadImages = function(){
 
 // openImage
 var openImage = function(image){
- hi duZ
+ hi du! 
+ Wie geht es dir?
 //start variable declaration
 //end variable declaration
 
