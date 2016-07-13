@@ -48,7 +48,7 @@ var init = function() {
     //end parameter initiation
     addUrl();
   })
-  $('#Neu laden
+  $('#Reload
 ').on('click', function() {
     //start parameter initiation
 
