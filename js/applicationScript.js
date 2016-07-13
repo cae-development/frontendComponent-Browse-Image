@@ -93,7 +93,7 @@ var loadImages = function(){
   function(data, type) {
     var images = data.images.map( function(image){ 
         var element = $("<div class='img' id='" + image .id + "-image' ><img src='"+image.url+"'/></div>");  
-
+http://137.226.232.228:8087/frontendComponent-Browse-Image/widget.xml
         return element; 
     });
     //Also update the html element?
