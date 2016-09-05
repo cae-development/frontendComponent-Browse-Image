@@ -118,10 +118,11 @@ var loadImages = function(){
 var openImage = function(image, image){
 //start variable declaration
 //end variable declaration
-
+ 
 
   var intentData = "initialized";
-  client.sendIntent("openImage",intentData,true);
+intentData = JSON.stringify(image);   
+client.sendIntent("openImage",intentData,true);
 
 //Additional own javascript  
 
