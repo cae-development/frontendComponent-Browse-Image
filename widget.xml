@@ -124,7 +124,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    <div id='imageList' > </div>
    <input id='url' > </input>
    <br id='br2' >
-   <button id='add' class="btn btn-default">Add 2Image</button>
+   <button id='add' class="btn btn-default">Add Image</button>
  
   </div>
 
