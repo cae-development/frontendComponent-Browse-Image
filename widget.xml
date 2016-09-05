@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-  <ModulePrefs title="Browse Image WIdget" description="Shows images from Image Service"
+  <ModulePrefs title="Browse Image Widget" description="Shows images from Image Service"
     author="Thomas" author_email="thomas.winkler1@rwth-aachen.de"
     width="500" height="500">
 
@@ -58,7 +58,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Browse Image WIdget</title>
+  <title>Browse Image Widget</title>
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
