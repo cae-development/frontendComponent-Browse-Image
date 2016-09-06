@@ -122,7 +122,7 @@ var openImage = function(image){
  
 
   var intentData = "initialized"; 
-  intetData = JSON.stringfy(image);
+  intenData = JSON.stringfy(image);
   client.sendIntent("openImage",intentData,true);
 
 //Additional own javascript  
