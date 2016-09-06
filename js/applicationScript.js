@@ -74,7 +74,8 @@ var addUrl = function(){
   });
   client.sendRequest("PUT", "images/", imageJson, "application/json", {}, false,
   function(data, type) {
-    console.log(data);
+    console.log(data); 
+    loadImages();
   },
   function(error) {
     console.log(error);
